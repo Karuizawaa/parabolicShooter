@@ -1,5 +1,5 @@
 # parabolicShooter
-This project focused on determine initial velocity to hit object with parabolic movement
+This project focused on determine initial velocity to hit object with parabolic movement, and show the trajectory
 
-to use this app, u need to install matplotlib, simply 
+to use this app, u need to install matplotlib, simply \n
 pip install matplotlib --upgrade
