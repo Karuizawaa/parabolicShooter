@@ -4,7 +4,7 @@ import math
 import numpy as np
 
 GRAVITY = 9.80665 #m/s
-ANGLE = 45
+ANGLE = 45 #degree elevation
 
 def toRad(degree):
     return degree * math.pi / 180
@@ -29,4 +29,4 @@ def plot(initVel):
     plt.axis('equal')
     plt.show()
 
-plot(vshoot(4,3)) #satuan meter brok x,y / jauh, tinggi
+plot(vshoot(4,3)) #metric (m) unit brok (x,y) / x for horizontal distance, y for vertical distance
